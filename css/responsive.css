@@ -1,0 +1,318 @@
+@media (max-width: 1100px){
+    .heading{
+        font-size: 25px;
+    }
+    .text{
+        font-size: 18px;
+    }
+    .landingPage .content h1{
+        font-size: 40px !important;
+    }
+    .landingPage .content p{
+        font-size: 18px;
+        max-width: 800px;
+    }
+    header{
+        padding: 0 5rem;
+    }
+    header .logo img{
+        width: 40px;
+        height: 40px;
+    }
+    header .navTabs ul li{
+        padding: 1rem 0.5rem;
+    }
+    header .navTabs .dropdown img{
+        width: 12px;
+    }
+    header .rightNav a{
+        padding: 1rem 0.5rem;
+    }
+    header .rightNav a img{
+        width: 25px;
+    }
+    header .navTabs ul .dropdown ul{
+        top: 100%;
+    }
+    .magentoNeed{
+        padding: 50px;
+    }
+    .magentoNeed .magentoNeedSlider .card{
+        margin:2rem 0.5rem !important;
+        height: 250px;
+    }
+    .magentoNeed .card img{
+        width: 75px !important;
+    }
+    .hireMagento{
+        padding: 75px;
+    }
+    .hireMagento h1{
+        min-width: 40%;
+    }
+    .stepsToHire .steps{
+        padding: 75px;
+    }
+    .stepsToHire .steps .card .cut{
+        font-size: 20px;
+    }
+    .whyToHire{
+        padding: 75px
+    }
+    .whyToHire .card{
+        width: 31% !important;
+    }
+    .hiringStandards{
+        padding: 75px;
+    }
+    .hiringStandards .card-group .card img{
+        width: 75px;
+    }
+    .services{
+        padding: 75px;
+    }
+    .subscribe{
+        padding: 75px;
+    }
+}
+
+
+
+
+
+@media (max-width: 800px){
+    .heading{
+        font-size: 22px;
+    }
+    .text{
+        font-size: 16px;
+    }
+    .landingPage .content p{
+        max-width: 600px !important;
+    }
+    header{
+        display: block;
+        padding: 0;
+    }
+    header .logo{
+        padding: 0.5rem 5rem;
+        width: 100%;
+        justify-content: space-between;
+    }
+    header .logo a{
+        display: block;
+    }
+    header .navTabs ul{
+        flex-direction: column;
+    }
+    header .navTabs ul,
+    header .navTabs ul li.dropdown{
+        justify-content: center;
+    }
+    header .navTabs ul li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+        cursor: pointer;
+        transition: 0.5s ease;
+        line-height: 100%;
+        background-color: #fff;
+    }
+    header .navTabs ul li ul{
+        width: 100% !important;
+    }
+    header .rightNav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+    }
+    header .navTabs,
+    header .rightNav{
+        display: none;
+    }
+    .topnav.responsive .navTabs {
+        display: block;
+    }
+    .topnav.responsive .rightNav{
+        display: flex;
+    }
+    .hireMagento{
+        padding: 50px;
+    }
+    .hireMagento h1{
+        min-width: 100% !important;
+        text-align: center;
+        padding: 1rem;
+    }
+    .stepsToHire .steps{
+        width: 100%;
+        padding: 50px;
+    }
+    .stepsToHire .steps .card{
+        width: 80%;
+        margin: auto;
+        margin-top: 1.5rem;
+        padding-left: 30%;
+    }
+    .stepsToHire .back{
+        display: none;
+    }
+    .whyToHire{
+        padding: 50px
+    }
+    .whyToHire h1{
+        width: 80%;
+        margin: auto auto 1.5rem auto;
+    }
+    .whyToHire p{
+        max-width: 600px !important;
+    }
+    .whyToHire .card{
+        width: 48% !important;
+        margin: 0.5rem 0.25rem !important;
+    }
+    .hiringStandards{
+        padding: 50px;
+    }
+    .hiringStandards h3{
+        font-size: 18px;
+    }
+    .hiringStandards{
+        padding: 50px;
+    }
+    .hiringStandards .card{
+        width: 45% !important;
+    }
+    .hiringStandards h3{
+        font-size: 20px !important;
+    }
+    .hiringStandards .card-group .card img{
+        width: 75px;
+    }
+    .services{
+        padding: 50px;
+    }
+    .services h1{
+        text-align: left;
+    }
+    .services .timeline::after {
+    left: 31px;
+    }
+    .services .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+    }
+    .services .container::before {
+    left: 60px;
+    border: medium solid #363636;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #363636 transparent transparent;
+    }
+    .services .left::after, .services .right::after {
+    left: 15px;
+    }
+    .services .right {
+    left: 0%;
+    }
+    .subscribe{
+        padding: 50px;
+    }
+    .getintouch{
+        padding: 50px !important;
+    }
+    .getintouch .logo,
+    .getintouch .button{
+        width: 150px;
+    }
+    .getintouch .social-group a{
+        font-size: 16px;
+    }
+    .getintouch .social-group img{
+        width: 25px;
+    }
+}
+
+
+
+@media (max-width: 500px){
+    .landingPage .content h1{
+        font-size: 30px !important;
+    }
+    .landingPage .content p{
+        font-size: 16px;
+        max-width: 400px !important;
+    }
+    .landingPage .content a{
+        padding: 0.5rem 1rem;
+        font-size: 15px;
+    }
+    header .logo{
+        padding: 0.5rem 3rem;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .magentoNeed{
+        padding: 30px;
+    }
+    .magentoNeed .magentoNeedSlider .card{
+        margin:2rem 0.5rem !important;
+        height: 250px;
+    }
+    .hireMagento{
+        padding: 30px;
+    }
+    .stepsToHire .steps{
+        padding: 30px;
+    }
+    .stepsToHire .steps .card{
+        width: 100%;
+        padding-left: 35%;
+    }
+    .stepsToHire .steps .card .cut{
+        font-size: 18px;
+    }
+    .whyToHire{
+        padding: 30px;
+    }
+    .whyToHire .card{
+        width: 47% !important;
+        margin: 0.5rem 0.25rem !important;
+    }
+    .hiringStandards{
+        padding: 30px;
+    }
+    .hiringStandards .card{
+        width: 100% !important;
+    }
+    .hiringStandards .card-group .card img{
+        width: 80px;
+    }
+    .services{
+        padding: 30px;
+    }
+    footer .text1{
+        font-size: 14px !important;
+    }
+    .subscribe{
+        padding: 30px;
+    }
+    .subscribe .form input[type=text]{
+        min-width: 80%;
+    }
+    .getintouch{
+        flex-direction: column;
+    }
+    .getintouch .logo{
+        width: 200px;
+    }
+    .getintouch .logo,
+    .getintouch .social-group{
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width: 400px){
+
+}
